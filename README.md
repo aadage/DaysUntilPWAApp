@@ -20,6 +20,6 @@ github pages version of DaysUntil app
 
 
 # App URL
-https://aadage.github.io/BlazorPWAApp/
+https://aadage.github.io/DaysUntilPWAApp/
 
 
