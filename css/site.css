@@ -137,7 +137,6 @@ table {
 /************************/
 body {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  margin: 10px;
 }
 button {
   background-color: #000000;
@@ -232,18 +231,14 @@ button {
 .SaveDateView-controlContainer {
   margin: 20px;
 }
-/*.SaveDateView-controlContainer label {
-    font-size: @fontSizeLarge;
-    font-weight: bold;
-}*/
 .SaveDateView-label {
   display: block;
-  font-size: 15pt;
+  font-size: 10pt;
   font-weight: bold;
   padding-bottom: 10px;
 }
 .SaveDateView-inlineLabel {
-  font-size: 15pt;
+  font-size: 10pt;
   font-weight: bold;
   display: inline;
 }
@@ -268,48 +263,6 @@ button {
     font-size: 20pt;
   }
 }
-/*
-.DaysEntryView-result {
-    margin: @marginLarge;
-    font-size: @fontSizeLarge;
-}
-
-.DaysEntryView-resultDate {
-    font-weight: bold;
-}
-
-.DaysEntryView-dayCountContainer {
-    margin: @marginLarge;
-}
-
-.DaysEntryView-dayCount {
-    font-size: @fontSizeLarge;
-    width: 100px;
-}
-
-.DaysEntryView-text {
-    font-size: @fontSizeLarge;
-}
-
-@media (min-width: @mediaTabletMinWidth) {
-    .DaysEntryView-result {
-        margin: @marginXLarge;
-        font-size: @fontSizeXLarge;
-    }
-
-    .DaysEntryView-dayCountContainer {
-        margin: @marginXLarge;
-    }
-
-    .DaysEntryView-dayCount {
-        font-size: @fontSizeXLarge;
-    }
-
-    .DaysEntryView-text {
-        font-size: @fontSizeXLarge;
-    }
-}
-    */
 
 /**********************/
 /* SavedDatesView.less */
@@ -367,7 +320,6 @@ button {
 .Layout-body {
   grid-area: content;
   text-align: center;
-  margin: 40px;
 }
 .Layout-navLink {
   background-color: #000000;
@@ -389,9 +341,6 @@ button {
   color: #000000;
 }
 @media (min-width: 500px) {
-  .Layout-menuIcon {
-    display: none;
-  }
   .Layout-layout {
     max-width: 1200px;
     grid-template-columns: 1fr;
@@ -399,5 +348,8 @@ button {
   }
   .Layout-header {
     grid-template-columns: 50px auto 50px;
+  }
+  .Layout-body {
+    margin: 40px;
   }
 }
