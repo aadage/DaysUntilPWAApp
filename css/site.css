@@ -242,11 +242,12 @@ button {
   font-weight: bold;
   display: inline;
 }
-.SaveDateView-name,
-.SaveDateView-notificationTime,
-.SaveDateView-enableNotification {
+.SaveDateView-name {
   font-size: 15pt;
 }
+/*.SaveDateView-name, .SaveDateView-notificationTime, .SaveDateView-enableNotification {
+    font-size: @fontSizeLarge;
+}*/
 @media (min-width: 500px) {
   .SaveDateView-controlContainer {
     margin: 40px;
@@ -257,11 +258,12 @@ button {
   .SaveDateView-label {
     font-size: 20pt;
   }
-  .SaveDateView-name,
-  .SaveDateView-notificationTime,
-  .SaveDateView-enableNotification {
+  .SaveDateView-name {
     font-size: 20pt;
   }
+  /*.SaveDateView-name, .SaveDateView-notificationTime, .SaveDateView-enableNotification {
+        font-size: @fontSizeXLarge;
+    }*/
 }
 
 /**********************/
