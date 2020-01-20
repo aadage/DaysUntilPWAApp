@@ -1,5 +1,6 @@
 ﻿var CACHE_NAME = 'DaysUntil-cache-v1';
 //let pathroot = '/';
+//let pathroot = '/DaysUntil/';
 let pathroot = '/DaysUntilPWAApp/';
 
 var urlsToCache = [

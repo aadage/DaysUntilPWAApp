@@ -1,5 +1,6 @@
 ﻿if ('serviceWorker' in navigator) {
     //let pathroot = '/';
+    //let pathroot = '/DaysUntil/';
     let pathroot = '/DaysUntilPWAApp/';
 
     window.addEventListener('load', function () {
