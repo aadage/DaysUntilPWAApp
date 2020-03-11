@@ -1,6 +1,11 @@
 {
-  "short_name": "Days Until",
   "name": "Days Until",
+  "short_name": "Days Until",
+  //"start_url": "/",
+  "start_url": "/DaysUntilPWAApp/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000"
   "icons": [
     {
       "src": "/DaysUntilPWAApp/images/DaysUntilLogo-192.png",
@@ -12,11 +17,15 @@
       "type": "image/png",
       "sizes": "512x512"
     }
-  ],
-  "start_url": "/DaysUntilPWAApp/",
-  "background_color": "#000000",
-  "display": "standalone",
-  "theme_color": "#000000"
+  ]
+  //"icons": [
+  //  {
+  //    "src": "icon-512.png",
+  //    "type": "image/png",
+  //    "sizes": "512x512"
+  //  }
+  //]
 }
+
 
 

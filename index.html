@@ -3,9 +3,9 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-    <title>DaysUntil</title>
-    <base href="/DaysUntilPWAApp/">
-    <!--<base href="/DaysUntilPWAApp/" />-->
+    <title>Days Until</title>
+    <!--<base href="/" />-->
+    <base href="/DaysUntilPWAApp/" />
     <link href="css/site.css" rel="stylesheet" />
     <link rel="manifest" href="manifest.json">
     <link rel="script" href="serviceworker.js">
@@ -17,13 +17,14 @@
         </div>
     </app>
 
-    <script>var Module;</script>
     <script src="_framework/blazor.webassembly.js"></script>
     <script src="jsinterop/jsinterop.js"></script>
     <script src="sw-init.js"></script>
+    <script>navigator.serviceWorker.register('service-worker.js');</script>
 
     <!-- iOS Browser Debugging Console -->
     <!-- To see console go to https://jsconsole.com/ and type command :listen 3E45A456-1136-43C6-910D-21EFE915F868 -->
-    <script src="https://jsconsole.com/js/remote.js?3E45A456-1136-43C6-910D-21EFE915F868"></script>
+    <!--<script src="https://jsconsole.com/js/remote.js?3E45A456-1136-43C6-910D-21EFE915F868"></script>-->
 </body>
 </html>
+
