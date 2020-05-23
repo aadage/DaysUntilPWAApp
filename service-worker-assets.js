@@ -33,7 +33,7 @@
       "url": "images\/DaysUntilLogo.svg"
     },
     {
-      "hash": "sha256-e7zftaKwudvCzb9a+QctNto+dJmICyaSppO3ksp\/HWg=",
+      "hash": "sha256-RBA8KvOjS8Y\/ozZfNe9nsElIX4ywG1khd3atnuPReTQ=",
       "url": "index.html"
     },
     {
@@ -45,7 +45,7 @@
       "url": "jsinterop\/jsinterop.js.map"
     },
     {
-      "hash": "sha256-pXYNOF0laYZfDy8HG0yV4rigqxGfBjnIoAz0C8Xf0MA=",
+      "hash": "sha256-Pno2uEBvV8XnGG0BM2DOITYIfrYrfZaLv+QTcvpnXvk=",
       "url": "manifest.json"
     },
     {
