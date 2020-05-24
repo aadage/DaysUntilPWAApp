@@ -33,7 +33,7 @@
       "url": "images\/DaysUntilLogo.svg"
     },
     {
-      "hash": "sha256-RBA8KvOjS8Y\/ozZfNe9nsElIX4ywG1khd3atnuPReTQ=",
+      "hash": "sha256-swNBw3QYKjTlJwtxKjvt2WZMTgpBEt8gqr3OiSr08og=",
       "url": "index.html"
     },
     {
