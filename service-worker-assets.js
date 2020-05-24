@@ -45,7 +45,7 @@
       "url": "jsinterop\/jsinterop.js.map"
     },
     {
-      "hash": "sha256-Pno2uEBvV8XnGG0BM2DOITYIfrYrfZaLv+QTcvpnXvk=",
+      "hash": "sha256-OtbaR+zjB6yrBHzsPzL+MjcvIsSGmpxyfJJ6IWG5v\/k=",
       "url": "manifest.json"
     },
     {
